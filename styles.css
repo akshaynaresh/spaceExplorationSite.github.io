@@ -1,0 +1,45 @@
+@font-face {
+	src: url("space.ttf");
+	font-family: space;
+}
+
+body {
+	text-align: center;
+/*	font-family: 'Orbitron', sans-serif;*/
+	font-family: space;
+	font-size: 35px;
+	color: #8990b4;
+	margin: 0;
+}
+
+.btn {
+	padding: 10px 20px;
+	background-size: white;
+	border: none;
+/*	font-family: 'Orbitron', sans-serif;*/
+	font-family: inherit;
+	font-size: 25px;
+	margin: 40px;
+	color: #8990b4;
+	font-weight: 800;
+}
+
+.cta {
+/*	text-decoration: underline;*/
+	border-bottom: 5px solid white;
+}
+
+#spacex {
+	width: 400px;
+}
+
+.hero {
+	background-image: url("images/galaxy.webp");
+	background-size: cover;
+	height: 850px;
+
+}
+
+h1 {
+	text-shadow: 0px 0px 5px black;
+}
